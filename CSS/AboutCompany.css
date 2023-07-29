@@ -1,0 +1,10 @@
+main {
+    padding: 10px 0px;
+}
+main > h1 {
+    margin: 15px 0px;
+}
+
+.card  {
+    width: 80%;
+}

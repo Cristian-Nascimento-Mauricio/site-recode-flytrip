@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+}
+
+.nacional , .internacional {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.nacional , .internacional > h1 {
+    margin:  0 auto;
+    text-align: center;
+    width: 100%;
+
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+
+}
+
+.countries > div {
+    margin: 10px 10px;
+}
+
+.countries > div > img {
+    width: 75px;
+    height: fit-content;
+
+}
+
+.countries > div > a > img {
+    width: 75px;
+    height: fit-content;
+
+}
+
+.countries > div > p {
+    width: 100px;
+    text-align: center;
+}
+.countries > div > a > p {
+    width: 100px;
+    text-align: center;
+}
+
+.countries > div > img:hover {
+    width: 100px;
+}
+.countries > div > a > img:hover {
+    width: 100px;
+}
+
+.nacional > .countries div:not(:nth-child(-n+2)) {
+    filter: grayscale(1);
+}

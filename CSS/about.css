@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+    border: 0;
+}
+
+.avaliacao {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+
+}
+.avaliacao > img {
+    width: fit-content;
+    height: 60%;
+    margin: auto 0;
+}
+
+
+
+#gallery{
+    display: grid;
+    grid-template-columns: 5%  90% 5%;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+
+}
+#Button_left > img {
+    width: 20px;
+    height: 50px;
+    opacity: 0.8;
+    transform: rotate(180deg);
+    grid-column: 1;
+}
+#Button_right > img {
+    width: 20px;
+    height: 50px;
+    opacity: 0.8;
+    grid-column: 3;
+
+}
+
+#images {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    grid-column: 2;
+    overflow-x: hidden;
+
+}
+
+#images > img {
+    margin: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    height: 180px;
+}
+#information {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 300px;
+
+}
+#aboutHotel {
+    padding-left: 10px;
+    grid-template-columns: 1;
+    width: 100%;
+    height: 100%;
+}
+
+#information > .googleMap {
+    grid-template-columns: 2;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+#information > .googleMap > iframe {
+    width: 100%;
+    height: 100%;
+}
