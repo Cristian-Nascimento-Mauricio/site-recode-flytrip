@@ -259,7 +259,7 @@ iframe > main{
 @media screen and (max-width: 425px) {
     
     .avaliacao > img {
-        width: fit-content;
+        width: 20px;
         height: 80%;
     }
     
