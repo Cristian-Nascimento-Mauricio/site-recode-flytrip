@@ -259,8 +259,8 @@ iframe > main{
 @media screen and (max-width: 425px) {
     
     .avaliacao > img {
-        width: 20px;
-        height: 80%;
+        width: 15px;
+        height: 60%;
     }
     
     .item {
@@ -273,13 +273,13 @@ iframe > main{
     }
 
     .preco > .Preco_sem_desconto {
-        font-size: 0.3vh;
+        font-size: 1px;
         text-decoration: line-through;
         color: red;
     
     }
     .Preco_com_desconto {
-        font-size: 0.3vw;
+        font-size: 1px;
     }
     .data {
         padding-top: 5px;
