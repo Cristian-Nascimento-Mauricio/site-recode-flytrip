@@ -309,6 +309,21 @@ iframe > main{
     }
 }
 
+@media (max-width: 425px) and (orientation: portrait) {
+    .avaliacao > img {
+        width: 10px;
+        height: 55%;
+    }
+  }
+  
+  /* Estilos específicos para dispositivos móveis na orientação paisagem */
+  @media (max-width: 425px) and (orientation: landscape) {
+    .avaliacao > img {
+        width: 10px;
+        height: 55%;
+    }
+  }
+
 /*
 @media screen and (max-width: 375px) {
     .item {
