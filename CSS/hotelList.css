@@ -269,7 +269,7 @@ iframe > main{
     }
 
     .titulo {
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
 
     .preco > .Preco_sem_desconto {
@@ -279,17 +279,17 @@ iframe > main{
     
     }
     .Preco_com_desconto {
-        font-size: 0.2vh;
+        font-size: 0.3vw;
     }
     .data {
         padding-top: 5px;
         padding-left: 5px;
-        font-size: 0.5vh;
+        font-size: 0.5vw;
     }
     .localizacao {
         padding-top: 0px;
         padding-left: 5px;        
-        font-size: 0.05vh;
+        font-size: 0.2vw;
     }
     .desconto {
         display: flex;
