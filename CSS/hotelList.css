@@ -273,18 +273,18 @@ iframe > main{
     }
 
     .preco > .Preco_sem_desconto {
-        font-size: 1px;
+        font-size: 30%;
         text-decoration: line-through;
         color: red;
     
     }
     .Preco_com_desconto {
-        font-size: 1px;
+        font-size: 50%;
     }
     .data {
         padding-top: 5px;
         padding-left: 5px;
-        font-size: 0.5vw;
+        font-size: 55%;
     }
     .localizacao {
         padding-top: 0px;
