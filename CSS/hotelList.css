@@ -282,7 +282,7 @@ iframe > main{
         font-size: 60%;
     }
     .data {
-        margin: auto 0px;
+        padding-top: 5px;
         font-size: 50%;
     }
     .localizacao {
