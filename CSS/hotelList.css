@@ -259,8 +259,8 @@ iframe > main{
 @media screen and (max-width: 425px) {
     
     .avaliacao > img {
-        width: 15px;
-        height: 60%;
+        width: 10px;
+        height: 55%;
     }
     
     .item {
@@ -273,18 +273,17 @@ iframe > main{
     }
 
     .preco > .Preco_sem_desconto {
-        font-size: 30%;
+        font-size: 35%;
         text-decoration: line-through;
         color: red;
     
     }
     .Preco_com_desconto {
-        font-size: 50%;
+        font-size: 60%;
     }
     .data {
-        padding-top: 5px;
-        padding-left: 5px;
-        font-size: 55%;
+        margin: auto 0px;
+        font-size: 70%;
     }
     .localizacao {
         padding-top: 0px;
@@ -305,7 +304,7 @@ iframe > main{
         height: 15px;
     }
     .desconto > p{
-        font-size: 0.5vh;
+        font-size: 55%;
     }
 }
 
