@@ -282,7 +282,7 @@ iframe > main{
         font-size: 60%;
     }
     .data {
-        padding-top: 5px;
+        padding-top: 7px;
         font-size: 50%;
     }
     .localizacao {
@@ -304,6 +304,7 @@ iframe > main{
         height: 15px;
     }
     .desconto > p{
+        white-space: nowrap;
         font-size: 50%;
     }
 }
