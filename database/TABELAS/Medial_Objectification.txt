@@ -1,0 +1,11 @@
+CREATE TABLE Medial_Objectification(
+	id INT PRIMARY KEY,
+	ilness VARCHAR(250),
+    contagious VARCHAR(300),
+    medicine VARCHAR(150),
+    risk_of_death VARCHAR(100),
+    special_need VARCHAR(250),
+    additional VARCHAR(5000),
+	FOREIGN KEY (id) REFERENCES Client(id)
+
+);

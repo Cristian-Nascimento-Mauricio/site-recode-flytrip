@@ -1,0 +1,9 @@
+CREATE TABLE Fly(
+	id INT PRIMARY KEY,
+    from_ VARCHAR(150),
+    to_ VARCHAR(150),
+    scale VARCHAR(200),
+    price float,
+    sand_company VARCHAR(150),
+    FOREIGN KEY (id) REFERENCES Client(id)
+);

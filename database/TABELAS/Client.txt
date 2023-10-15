@@ -1,0 +1,9 @@
+CREATE TABLE Client (
+    id INT PRIMARY KEY,
+    name VARCHAR(200),
+    year_old DATE,
+    nationality VARCHAR(150),
+    nationality_identification VARCHAR(100),
+    medical_objectification BIT,
+    flies INT
+);
