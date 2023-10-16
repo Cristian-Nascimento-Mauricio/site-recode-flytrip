@@ -3,35 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/hotelList.css">
+    <link rel="stylesheet" href="/CSS/item-hotel.css">
 </head>
 <body>
     <main>
-        <div class="item" >
-            <img class="img" src="/midiais/img_hotel/hotel_1.jpg"> 
-            <p class="titulo"><a href="/HTML/iframes/about.html" target="MeuIframe"> Hotel do Rio branco</a></p>
-            <img class="favoritar"  src="/midiais/coracao.png">
-            <div class="avaliacao">
-                <img src="/midiais/estrela.png">
-                <img src="/midiais/gray_estrela.png">
-                <img src="/midiais/gray_estrela.png">
-                <img src="/midiais/gray_estrela.png">
-                <img src="/midiais/gray_estrela.png">
-
+        <div class="item-hotel">
+            <div class="percent-discount">
+                <p>50%</p>
             </div>
-            <div class="preco">
-                <p class="Preco_sem_desconto">R$ 74,99</p>
-                <p class="Preco_com_desconto">R$ 49,99</p>
-            </div>  
-            <p class="data">
-                diaria
-            </p>
-            <a class="googlemap" alt="Google Mapa" href="https://www.google.com.br/maps/preview" target="_blank"><img src="/midiais/google_maps.png"></a>
-            <p class="localizacao">
-                Av. Rio Branco, 33, 20090-003, São Paulo, Brasil
-            </p>
-            <div class="desconto"><p>33%</p></div>
+            <img src="../../../midiais/img_hotel/hotel_1.jpg"> 
+            <div class="div-container">
+                <div class="div-information">
+                    <div class="title">
+                        <p >Nome do hotel</p>
+                    </div>
+                    <div class="assessment">
+                        <img src="../../../midiais/gray_estrela.png">
+                        <img src="../../../midiais/estrela.png">
+                    </div>
+                    <div class="price">
+                        <p class="discountless">R$ 1.000,00 </p>
+                        <p class="discount">R$ 1.000,00 </p>
+                    </div>
+                    <div class="data">
+                        <p>10/10/2010 - 12/10/2010</p>
+                    </div>
+                    <div class="place">
+                        <p>Texto de localização</p>
+                    </div>
+
+                </div>
+                <div class="div-bottuns">
+                    <label>
+                        <input type="checkbox">
+                        <img class="favoritar" src="../../../midiais/coracao.png">
+                    </label>
+                    <a class="map" target="_blank" href="https://www.google.com.br/maps/place/Pra%C3%A7a+da+Liberdade/@-22.5095993,-43.1786082,16z/data=!4m6!3m5!1s0x990805c71bf49f:0x1c5a023b573d6935!8m2!3d-22.5094938!4d-43.1827898!16s%2Fg%2F11b6sntw6h?entry=ttu">
+                        <img src="../../../midiais/google_maps.png">
+                    </a>
+                </div>
+            </div>
         </div>
+
 
 
     </main>
